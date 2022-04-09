@@ -1,0 +1,10 @@
+/* global styles */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+/* !global styles */
