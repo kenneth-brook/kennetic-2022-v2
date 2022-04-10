@@ -25,6 +25,9 @@
             <div class="titleBlock">
                 <h4>Latest News</h4>
             </div>
+            <div class="newsWrap">
+                <?php include 'inc/home-news.php'; ?>
+            </div>
         </div>
         <div class="articleMenu">
             <div class="titleBlock">
