@@ -101,6 +101,7 @@ body {
         display: flex;
         position: relative;
         top: 0;
+        border-bottom: 2px solid black;
     }
 
     .eventMenu {
@@ -142,6 +143,19 @@ body {
 /* home news blocks */
     .newsCard {
         width: 65%;
+        margin-top: 15px;
+        padding: 25px;
+    }
+
+    .newsTop {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .newsTop h6 {
+        font-size: 1.6rem;
+        padding: 10px;
     }
 /* !home news blocks */
 
