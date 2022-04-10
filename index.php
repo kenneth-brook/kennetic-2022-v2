@@ -15,6 +15,23 @@
 
 <body id="home">
     <?php include 'inc/header.php'; ?>
+    <div class="homeContWrap">
+        <div class="eventMenu">
+            <div class="titleBlock">
+                <h4>Upcoming Events</h4>
+            </div>
+        </div>
+        <div class="newsWrap">
+            <div class="titleBlock">
+                <h4>Latest News</h4>
+            </div>
+        </div>
+        <div class="articleMenu">
+            <div class="titleBlock">
+                <h4>Kennetic Journal</h4>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

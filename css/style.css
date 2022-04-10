@@ -6,11 +6,11 @@ html {
 
 * {
     box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
     width: 100%;
 }
 /* !global styles */
@@ -38,11 +38,15 @@ body {
     box-shadow: -8px 8px 16px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     overflow: hidden;
 }
 
 .wipeText {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     animation: textgrow 6s forwards;
     overflow: hidden;
 }
@@ -51,11 +55,13 @@ body {
     color: white;
     font-size: 4.5rem;
     line-height: 25px;
+    margin-top: 15px;
 }
 
 .wipeText h3 {
     color: white;
     font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
 @keyframes textgrow {
@@ -85,3 +91,59 @@ body {
     }
 }
 /* !header */
+
+/* nav */
+
+/* !nav */
+
+/* home */
+    .homeContWrap {
+        display: flex;
+        position: relative;
+        top: 0;
+    }
+
+    .eventMenu {
+        width: 15%;
+        border-right: 2px solid black;
+        position: relative;
+        top: 0;
+    }
+
+    .newsWrap {
+        width: 70%;
+    }
+
+    .articleMenu {
+        width: 15%;
+        border-left: 2px solid black;
+    }
+
+    .titleBlock {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
+        background-color: blanchedalmond;
+    }
+
+    .titleBlock h4 {
+        font-size: 2.4rem;
+        padding: 15px 0;
+    }
+/* !home */
+
+/* home news blocks */
+
+/* !home news blocks */
+
+/* event bar */
+
+/* !event bar */
+
+/* article menu */
+
+/* !article menu */
+
+/* footer */
+
+/* !footer */
