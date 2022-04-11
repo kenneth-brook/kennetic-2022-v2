@@ -20,7 +20,7 @@ $sub_sql='SELECT * FROM news WHERE status = "published" ORDER BY created_on ASC'
             <div class=newsTitle>
                 <h2>".$title."</h2>
             </div>
-            <div class=newsTitle>$content</div>
+            <div class=newsCont>$content</div>
         </div>";
     }
 ?>

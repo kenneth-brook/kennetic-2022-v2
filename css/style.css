@@ -144,7 +144,12 @@ body {
     .newsCard {
         width: 65%;
         margin-top: 15px;
+        margin-bottom: 15px;
         padding: 25px;
+        background-color: lightblue;
+        border: 2px solid darkgrey;
+        border-radius: 15px;
+        box-shadow: -8px 8px 16px;
     }
 
     .newsTop {
@@ -156,6 +161,27 @@ body {
     .newsTop h6 {
         font-size: 1.6rem;
         padding: 10px;
+    }
+
+    .newsTitle h2 {
+        font-size: 2.4rem;
+        padding: 10px;
+    }
+
+    .newsCont h1 {
+        font-size: 2.8rem;
+        padding: 10px;
+    }
+
+    .newsCont p {
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .newsCont li {
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 0 10px;
     }
 /* !home news blocks */
 
