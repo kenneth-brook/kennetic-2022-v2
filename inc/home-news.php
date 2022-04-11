@@ -1,7 +1,7 @@
 <?php
 include_once('db_config.php');
 
-$sub_sql='SELECT * FROM news WHERE status = "published" ORDER BY created_on ASC';
+$sub_sql='SELECT * FROM news WHERE status = "published" ORDER BY created_on DESC';
 
     $sub_result = mysqli_query($connection,$sub_sql);
 
