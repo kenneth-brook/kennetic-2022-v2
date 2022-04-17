@@ -194,5 +194,9 @@ body {
 /* !article menu */
 
 /* footer */
-
+.footerWrap {
+    width: 100%;
+    min-height: 150px;
+    background-color: black;
+}
 /* !footer */
