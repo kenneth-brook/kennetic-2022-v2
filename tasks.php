@@ -8,7 +8,7 @@
 
     <meta name="Description" content="" />
 
-    <title>Home | Kennetic Concepts</title>
+    <title>Tasks | Kennetic Concepts</title>
 
     <?php include 'inc/header-script.php'; ?>
 </head>
