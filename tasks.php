@@ -10,8 +10,6 @@
 
     <title>Tasks | Kennetic Concepts</title>
 
-    <?php include "inc/db_config.php"; ?>
-
     <?php include 'inc/header-script.php'; ?>
 </head>
 
@@ -19,7 +17,9 @@
     <?php include 'inc/header.php'; ?>
 
     <h2>Task Entry</h2>
-
+    <div class="taskCardArea">
+        <?php include 'inc/taskCard.php'; ?>
+    </div>
     <?php include 'inc/footer.php'; ?>
 </body>
 
