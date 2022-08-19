@@ -23,7 +23,7 @@
         </div>
         <div class="newsWrap">
             <div class="titleBlock">
-                <h4>Latest News</h4>
+                <h4>The Kennetic Way</h4>
             </div>
             <div class="newsWrap">
                 <?php include 'inc/home-content.php'; ?>
